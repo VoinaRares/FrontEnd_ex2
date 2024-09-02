@@ -1,4 +1,4 @@
-function resizeSideBar(){
+/*function resizeSideBar(){
 
     const sidebar = document.getElementById("sidebar");
     const width = window.innerWidth;
@@ -30,4 +30,4 @@ function resizeSideBar(){
 resizeSideBar();
 
 
-window.addEventListener('resize', resizeSideBar);
+window.addEventListener('resize', resizeSideBar);*/
