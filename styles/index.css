@@ -9,7 +9,57 @@ html{
     overflow-y: hidden;
 }
 
+#back{
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    text-align: center;
+    padding: 5px 0px;
+    width: 10%;
+    margin-left: 10vh;
+    box-sizing: border-box;
+    margin-top: 4vh;
+}
 
+#back:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+#logout{
+    background-image: url("../images/logout.svg");
+    height: 3vh;
+    width: 5vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 3vh 0vh;
+    display: block;
+    flex-shrink: 0;
+}
+
+#logo{
+    background-image: url("../images/ntt-logo-cxp.svg");
+    background-repeat: no-repeat;
+    height: 5vh;
+    width: auto;
+    margin-left: 10vh;
+    margin-top: 40px;
+}
+
+#acces-card{
+    background-image: url("../images/meniu_button_acces_card.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 5vh;
+    width: 5vw;
+    display: block;
+    margin: 3vh 0vh;
+    flex-shrink: 0;
+}
 
 #sidebar1{
     height: 100%;
